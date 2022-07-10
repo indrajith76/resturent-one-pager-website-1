@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Navber css start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+    height: 50px;
+    position: relative;
+    background: #EB6076;
+    overflow: hidden;
+}
+nav img {
+    height: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color: white;
+    background: #D82029;
+}
+
+/* navbar css end */
+
+/* top banner css start */
+.top-banner {
+    display: flex;
+    padding: 60px 5% 90px 5%;
+}
+
+.top-banner-left {
+    width: 50%;
+    color: #575757;
+}
+.top-banner-left span {
+    color: #D82029;
+}
+.top-banner-left h1 {
+    font-size: 50px;
+    line-height: 70px;
+    margin: 40px 0 40px 0;
+}
+
+.top-banner-left p {
+    font-size: 20px;
+    color: #575757;
+    padding-right:30px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    background: linear-gradient(90deg, #fc405c, #D82029);
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    color: #f1f1f1;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.btn:hover {
+    background: linear-gradient(90deg, #D82029, #fc405c);
+}
+
+.top-banner-right {
+    width: 50%; display: flex;
+    justify-content: flex-end;
+}
+.top-banner img {
+    width: 75%;
+}
+
+/* top banner css end */
+
+/* AboutUs style start */
+.about {
+    background: url(images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 50px 5% 0 5%;
+}
+.about-left {
+    width: 50%;
+}
+
+.about-left h2 {
+    font-size: 40px;
+    color: #575757;
+    margin: 90px 0 40px 0;
+}
+
+.about-left p {
+    font-size: 18px;
+    color: #575757;
+    line-height: 30px;
+    padding-right: 110px;
+    text-align: justify;
+    margin: 0 0 50px 0;
+}
+.about-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-right img {
+    width: 60%;
+}
+/* AboutUs style end */
