@@ -299,7 +299,7 @@ nav a:hover {
 /* Email style start */
 
 .email {
-    margin: 0 15% 0 15%;
+    margin: 0 15% 5% 15%;
     border-radius: 50px;
     padding: 20px 0 0 0;
     background: #e9eb60;
@@ -354,4 +354,56 @@ nav a:hover {
 }
 .email-body form button:hover {
     background: linear-gradient(90deg, #d89e20, #fcaa40);
+}
+
+/* Email style end */
+
+footer {
+    padding: 10px 5% 10px 5%;
+    background: #1E2B47;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location ul{
+    list-style: none;
+    color: #ececec;
+    font-size: 16px;
+}
+
+.location li {
+    margin-bottom: 10px;
+}
+
+.location li i{
+    margin-right: 7px;
+}
+
+.location img{
+    height: 100px;
+}
+
+.link ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.link li a{
+    color: #ececec;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.link li a:hover{
+    color: #486cbb;
+}
+
+.footer-bottom {
+    color: #486cbb;
+    text-align: center;
+    margin-bottom:10px;
 }
