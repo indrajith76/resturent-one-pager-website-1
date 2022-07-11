@@ -254,7 +254,7 @@ nav a:hover {
     margin: 0 0 20px 0;
 }
 
-.review p {
+.review-head p {
     font-size: 18px;
     text-align: center;
     color: #575757;
@@ -262,5 +262,30 @@ nav a:hover {
     line-height: 25px;
     margin-bottom: 40px;
 }
+.review-body {
+    padding: 0 7% 40px 7%;
+}
+.review-card {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
 
+.review-card img {
+    height: 100%;
+    border-radius: 50%;
+}
+.blue {
+    background: #b6e0fc;
+}
+
+.red{
+    background: #ffb4b8;
+}
+.review-comment {
+    border-radius: 50px;
+    padding: 40px;
+    width: 75%;
+}
 /* review style end */
