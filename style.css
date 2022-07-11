@@ -17,7 +17,35 @@ nav {
 nav img {
     height: 100%;
 }
+.nav-center {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+.nav-center :nth-child(1) {
+    width: 330px;
+    padding: 0 0 0 10px; outline: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
 
+.nav-center :nth-child(2) {
+    padding: 0 10px 0 10px;
+    background: #D82029;
+    color: #f1f1f1;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav-center :nth-child(1):focus ~ #search{
+    background: #20d88b;
+    color: #575757;
+}
+.nav-center input {
+    height: 35px;
+    border: none;
+}
 
 nav ul {
     display: flex;
@@ -125,3 +153,114 @@ nav a:hover {
     width: 60%;
 }
 /* AboutUs style end */
+
+/* food style start */
+.food {
+    padding: 80px 5% 80px 5%;
+    background: url(images/food/food-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.food::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: .90;
+}
+
+.food-items {
+    display: flex;
+}
+.food-head h2 {
+    font-size: 40px;
+    color: #575757;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.food-head p {
+    font-size: 18px;
+    text-align: center;
+    color: #575757;
+    padding: 0 250px 0 250px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.food-card {
+    width: 25%;
+    border-radius: 5px;
+    padding: 5px 5px 20px 5px;
+    margin: 0 5px 15px 5px;
+    position: relative;
+    transition: .3s;
+    background: white;
+}
+
+.food-card:hover {
+    box-shadow: 5px 5px 20px #575757;
+    cursor: pointer;
+    top: -20px;
+}
+.food-card h3 {
+    color: #575757;
+    margin: 0 0 10px 0;
+}
+
+.food-card p {
+    color: #575757;
+}
+.food-card img {
+    width: 100%;
+}
+
+.food-card > p {
+    margin-bottom: 20px;
+}
+
+.food-card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+
+.food-card div > p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #575757;
+}
+
+/* food style end */
+
+/* review style start */
+
+.review {
+    padding: 80px 5% 0 5%;
+}
+
+.review h2 {
+    font-size: 40px;
+    color: #575757;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.review p {
+    font-size: 18px;
+    text-align: center;
+    color: #575757;
+    padding: 0 250px 0 250px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+/* review style end */
