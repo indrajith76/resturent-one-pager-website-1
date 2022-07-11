@@ -315,10 +315,11 @@ nav a:hover {
     text-align: center;
     font-size: 18px;
     margin: 8px 0 20px 0;
+    color: #575757;
 }
 
 .email-body {
-    padding: 50px 240px 50px 240px;
+    padding: 50px 230px 50px 230px;
     text-align: center;
 }
 .email-body p{
@@ -334,6 +335,19 @@ nav a:hover {
 .email-body input{
     width: 300px;
     height: 30px;
+    padding-left: 10px;
+    border: none;
+}
+
+.email-body input:focus {
+    outline: none;
+}
+.email-body textarea {
+    border: none;
+    padding: 5px 0 0 10px;
+}
+.email-body textarea:focus{
+    outline: none;
 }
 
 .message :nth-child(1){
